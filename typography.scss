@@ -10,7 +10,7 @@
 //}
 
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
@@ -31,7 +31,7 @@ h2 {
 	@include font-size(22);
 }
 
-h3{
+h3 {
 	margin: .4em 0 .4em 0;
 	@include font-size(18);
 }
@@ -42,7 +42,7 @@ h4 {
 }
 
 h5 {
-    margin: .2em 0 .2em 0;
+  margin: .2em 0 .2em 0;
 	@include font-size(14);
 }
 
@@ -56,11 +56,11 @@ p {
 	@include font-size(13);
 }
 
-a{
+a {
   color: gray;
   font-weight: bold;
   text-decoration: underline;
-  &:hover{
+  &:hover {
     color: blue;
   }
 }
@@ -84,16 +84,16 @@ ul, ol, dl, dd {
 	@include font-size(12);
 }
 
-ol{
-    margin: 0 0 0 1em;
-    list-style-type: decimal; 
-    li{
-        margin-bottom: .6em;
-    }
+ol {
+  margin: 0 0 0 1em;
+  list-style-type: decimal; 
+  li {
+      margin-bottom: .6em;
+  }
 }
 
-label, legend{
-    font-weight: bold;
+label, legend {
+  font-weight: bold;
 	@include font-size(16);
 }
 
@@ -113,9 +113,9 @@ hr {
 }
 
 blockquote {	
+	border-left: 8px solid gray;
 	padding: 0 2.5em 0 2.5em;
 	margin: 1.5em 1.5em 2.5em 1.5em;
-	border-left: 8px solid gray;
 	@include font-size(15);
 	p {
 		margin: 0;
@@ -136,7 +136,7 @@ abbr, acronym {
  	border-color: inherit;
  	cursor: help;
  	border-bottom-style: dotted;
- 	border-bottom-width: 1px;
+ 	border-bottom-width: thin;
 }  
 
 del {
@@ -148,7 +148,7 @@ kbd, code {
 }
 
 footer {
-	@include font-size(11);
+	@include font-size(12);
 }
 
 ::selection {
